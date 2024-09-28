@@ -1,0 +1,40 @@
+<mxfile host="Electron" modified="2024-06-27T03:20:24.391Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.1 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="e0At2RRSdEUE0QpebBCP" version="24.6.1" type="device">
+  <diagram name="Page-1" id="u9TRBQUvtCbaiOLoGBql">
+    <mxGraphModel dx="941" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Pc4Q1FQwPzD7ynQNOqQ-2" target="2Pc4Q1FQwPzD7ynQNOqQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-2" value="Prototype is used to&lt;div&gt;for object inheritance&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;let token={&lt;br&gt;constructor(param){&lt;div&gt;color:param //wrong&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="430" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-4" value="A javascript object&amp;nbsp;&lt;div&gt;can&#39;t have a constructor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="280" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-5" value="To construct objects we can-&amp;nbsp;&lt;br&gt;create object as a function and call&lt;br&gt;OR&lt;br&gt;invoke the method of object and pass&lt;div&gt;values to it&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="110" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-6" value="// token interface&lt;div&gt;namespace token{&lt;br&gt;declare interface tokenColors{&lt;br&gt;colors: &quot;red&quot; | &quot;yellow&quot; | &quot;green&quot; | &quot;blue&quot;&lt;br&gt;&amp;nbsp;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;declare interface tokenSize{&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;size: 50px&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;//namespace ends}&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;declare interface Box{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;dir:1| -1 | 2 | -2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;tokenList:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="254" width="530" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Pc4Q1FQwPzD7ynQNOqQ-7" target="2Pc4Q1FQwPzD7ynQNOqQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-7" value="First declare interfaces and types&amp;nbsp;&lt;div&gt;then logically link them&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="380" width="220" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-9" value="Declare namespace&amp;nbsp;&lt;div&gt;and then declare interfaces in each namespace&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="590" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-10" value="let car={&lt;br&gt;gears:4&lt;div&gt;wheels: 5&lt;br&gt;}&lt;/div&gt;&lt;div&gt;const sportsCar={&lt;br&gt;gears:5&lt;br&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;car.__proto__=sportsCar.ge&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="140" width="250" height="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

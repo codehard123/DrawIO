@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" modified="2024-07-18T06:46:27.598Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="9LeDrOBwhcqjAj-uNpKx" version="24.7.1" type="device">
+  <diagram name="Page-1" id="u3p0C_s5Iy_nVXLMbYkd">
+    <mxGraphModel dx="954" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dttcTRdTyoaL3RDdax5Z-1" value="/dev means Device Files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="160" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dttcTRdTyoaL3RDdax5Z-2" value="/dev/null - null device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dttcTRdTyoaL3RDdax5Z-3" value="most of devices listed in&amp;nbsp; dev are either-&lt;div&gt;(block or character)&amp;nbsp;&lt;/div&gt;&lt;div&gt;files&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dttcTRdTyoaL3RDdax5Z-4" value="NVME SSD&#39;s are different .. They are block devices but their controllers&lt;div&gt;are listed as character devices&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dttcTRdTyoaL3RDdax5Z-5" value="Actually in my pc I need to go on to the /dev/nvme as my storage type is an nvme ssd" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="740" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

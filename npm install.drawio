@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="Page-1" id="8gkoaITpcbI0VQsJJdFB">
+    <mxGraphModel dx="909" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4kKVadJ2q0rEHIaGiWLF-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4kKVadJ2q0rEHIaGiWLF-1" target="4kKVadJ2q0rEHIaGiWLF-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4kKVadJ2q0rEHIaGiWLF-1" value="Check &amp;lt;@version&amp;gt; and&amp;nbsp;&lt;div&gt;--save-[dev|prod|]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4kKVadJ2q0rEHIaGiWLF-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4kKVadJ2q0rEHIaGiWLF-2" target="4kKVadJ2q0rEHIaGiWLF-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4kKVadJ2q0rEHIaGiWLF-2" value="npm install &amp;lt;folder&amp;gt;&lt;div&gt;folder containing&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4kKVadJ2q0rEHIaGiWLF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4kKVadJ2q0rEHIaGiWLF-4" target="4kKVadJ2q0rEHIaGiWLF-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4kKVadJ2q0rEHIaGiWLF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4kKVadJ2q0rEHIaGiWLF-4" target="4kKVadJ2q0rEHIaGiWLF-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4kKVadJ2q0rEHIaGiWLF-4" value="Will try to write different Standards and Check" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="340" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4kKVadJ2q0rEHIaGiWLF-6" value="JSON- (Package.json)&lt;div&gt;Works&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="540" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4kKVadJ2q0rEHIaGiWLF-8" value="YAML (Not Works)&lt;div&gt;as&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(0, 153, 0);&quot;&gt;npm init=package.json&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="390" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4kKVadJ2q0rEHIaGiWLF-10" value="Aliases :-&amp;nbsp;&lt;div&gt;npm add&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(102, 178, 255);&quot;&gt;AND&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;npm i&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

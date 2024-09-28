@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="Page-1" id="u9TRBQUvtCbaiOLoGBql">
+    <mxGraphModel dx="555" dy="275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2Pc4Q1FQwPzD7ynQNOqQ-2" target="2Pc4Q1FQwPzD7ynQNOqQ-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-2" value="Prototype is used to&lt;div&gt;for object inheritance&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="100" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;let token={&lt;br&gt;constructor(param){&lt;div&gt;color:param //wrong&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="430" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-4" value="A javascript object&amp;nbsp;&lt;div&gt;can&#39;t have a constructor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="280" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-5" value="To construct objects we can-&amp;nbsp;&lt;br&gt;create object as a function and call&lt;br&gt;OR&lt;br&gt;invoke the method of object and pass&lt;div&gt;values to it&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="110" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-6" value="// token interface&lt;div&gt;namespace token{&lt;br&gt;declare interface tokenColors{&lt;br&gt;colors: &quot;red&quot; | &quot;yellow&quot; | &quot;green&quot; | &quot;blue&quot;&lt;br&gt;&amp;nbsp;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}fgfgf&lt;/div&gt;&lt;div&gt;declare interface tokenSize{&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;size: &quot;50px&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;//namespace ends}&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;declare interface Box{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;dir:1| -1 | 2 | -2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;tokenList:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="350" y="254" width="530" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2Pc4Q1FQwPzD7ynQNOqQ-7" target="2Pc4Q1FQwPzD7ynQNOqQ-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-7" value="First declare interfaces and types&amp;nbsp;&lt;div&gt;then logically link them&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="380" width="220" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-9" value="Declare namespace&amp;nbsp;&lt;div&gt;and then declare interfaces in each namespace&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="590" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Pc4Q1FQwPzD7ynQNOqQ-10" value="let car={&lt;br&gt;gears:4&lt;div&gt;wheels: 5&lt;br&gt;}&lt;/div&gt;&lt;div&gt;const sportsCar={&lt;br&gt;gears:5&lt;br&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;car.__proto__=sportsCar.ge&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="140" width="250" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="JRT0RK8NeJ0i7kWn0cfL-1" value="We can exlude one action type from other action types using the exclude&amp;nbsp;&lt;div&gt;type ,.. Exclude is written as&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;enum ActionTypes{&lt;/div&gt;&lt;div&gt;ADD_STUDENT:&quot;ADD_STUDENT&quot;,&lt;/div&gt;&lt;div&gt;REMOVE_STUDENT:&quot;REMOVE_STUDENT&quot;,&lt;/div&gt;&lt;div&gt;&quot;PRINT_NAMES&quot;:&quot;PRINT_NAMES&quot;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 204, 255);&quot;&gt;export type UpdateStudentTypes=Exclude&amp;lt;ActionTypes, ActionTypes.PRINT_NAMES&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="140" y="830" width="440" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="JRT0RK8NeJ0i7kWn0cfL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JRT0RK8NeJ0i7kWn0cfL-2" target="JRT0RK8NeJ0i7kWn0cfL-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JRT0RK8NeJ0i7kWn0cfL-2" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;color: rgb(232, 232, 232); font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; text-align: left; background-color: rgb(31, 31, 31);&quot;&gt;The double question mark ( ?? ) in JavaScript, also known as the nullish coalescing operator, is&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background: linear-gradient(90deg, rgb(52, 69, 127) 50%, rgba(0, 0, 0, 0) 50%) 0% 0px / 200% 100% no-repeat rgb(52, 69, 127); color: rgb(255, 255, 255); animation: 0.75s cubic-bezier(0.05, 0.7, 0.1, 1) 0.25s 1 normal forwards running highlight; font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; text-align: left;&quot;&gt;a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined , otherwise it returns the left-hand side&lt;/span&gt;&lt;span style=&quot;color: rgb(232, 232, 232); font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; text-align: left; background-color: rgb(31, 31, 31);&quot;&gt;.&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="80" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JRT0RK8NeJ0i7kWn0cfL-3" value="true ?? false&lt;div&gt;null ?? false&lt;/div&gt;&lt;div&gt;hello.run() ?? false&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="940" y="200" width="320" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

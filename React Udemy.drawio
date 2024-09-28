@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="Page-1" id="3kejDlXpaPWLP4Dkvvzk">
+    <mxGraphModel dx="954" dy="1761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q19PszJI39mGv2GJ6fnc-1" value="Code Sandbox&lt;div&gt;(Online IDE for react)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-2" value="Quick Start&amp;nbsp;&lt;div&gt;react docs&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-3" value="React allows nested&lt;div&gt;&amp;nbsp;components&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q19PszJI39mGv2GJ6fnc-4" target="q19PszJI39mGv2GJ6fnc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q19PszJI39mGv2GJ6fnc-4" target="q19PszJI39mGv2GJ6fnc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q19PszJI39mGv2GJ6fnc-4" target="q19PszJI39mGv2GJ6fnc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-4" value="What all is allowed inside of a JSX statement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-5" value="Property display&lt;div&gt;and property passing&lt;/div&gt;&lt;div&gt;as props&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-7" value="Conditional Rendering" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-9" value="Multiple conditions&lt;div&gt;setting up&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-11" value="Functional Components must have the same name as the file contatining it" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-13" value="Web pack builds the project tree structure after compilation. When we use npm start the entire build tree is constructed. After the build tree is constructed hot reloading is enabled. If we delete some of the files after the hot reloading server is on,, webpack won&#39;t listen to the file changes and&lt;div&gt;&lt;span style=&quot;background-color: rgb(0, 0, 204);&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;background-color: rgb(153, 255, 204);&quot;&gt;he project needs to be rebuilt&lt;/span&gt;&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;ANd NPM START needs to be called again&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="280" width="210" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-14" value="React-use-audio-player" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-15" value="All return components must have a root&amp;nbsp;&lt;div&gt;element&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-16" value="We can&#39;t use the&amp;nbsp;&lt;span style=&quot;color: rgb(232, 232, 232); font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 20px; text-align: left; background-color: rgb(31, 31, 31);&quot;&gt;The double question mark ( ?? ) in JavaScript, also known as the nullish coalescing operator&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(232, 232, 232); font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; font-size: 20px; text-align: left; background-color: rgb(31, 31, 31);&quot;&gt;for conditional rendering in JSX&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270" y="460" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q19PszJI39mGv2GJ6fnc-17" target="q19PszJI39mGv2GJ6fnc-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-17" value="Reducer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="q19PszJI39mGv2GJ6fnc-18" target="q19PszJI39mGv2GJ6fnc-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-18" value="actionTypes&lt;div&gt;(input)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q19PszJI39mGv2GJ6fnc-19" target="q19PszJI39mGv2GJ6fnc-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-19" value="State&lt;div&gt;(inputs)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q19PszJI39mGv2GJ6fnc-22" value="Modified state&lt;div&gt;(output)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

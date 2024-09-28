@@ -1,0 +1,25 @@
+<mxfile host="Electron" modified="2024-06-27T07:59:23.993Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.1 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="Olp5ljVFX6MUhS4L3Wqq" version="24.6.1" type="device">
+  <diagram name="Page-1" id="Od1cbDWHhQ44z0d3qMwy">
+    <mxGraphModel dx="954" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x6eWm-5FMgnCO4oykvSL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="x6eWm-5FMgnCO4oykvSL-1" target="x6eWm-5FMgnCO4oykvSL-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6eWm-5FMgnCO4oykvSL-1" value="Prototype is a method&lt;div&gt;to inherit in js&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6eWm-5FMgnCO4oykvSL-2" value="INheriting an object method using prototype&lt;div&gt;var obj={&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;method: function fetchdata(){&lt;/div&gt;&lt;div&gt;axios({&lt;/div&gt;&lt;div&gt;url:&quot;/&quot;,&lt;/div&gt;&lt;div&gt;method:&quot;get&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;})&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="120" y="240" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="x6eWm-5FMgnCO4oykvSL-4" value="// making a ludo game&amp;nbsp;&lt;div&gt;// properties like token,box,&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry y="710" width="880" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="x6eWm-5FMgnCO4oykvSL-5" value="Every javascript object has a prototype be it a simple jsobject {}, or&amp;nbsp;&lt;div&gt;a function,, everyone has their prototypes&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="425" y="100" width="415" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

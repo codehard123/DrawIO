@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="WtbTdzEPvrBGEnidGG64">
+    <mxGraphModel dx="954" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QUuLNvkI4vxP1UGPbpTI-2" value="Super Server Mode" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="787" y="230" width="53" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QUuLNvkI4vxP1UGPbpTI-3" value="vsftpd -&amp;nbsp;&lt;div&gt;Very Secure File Transfer Protocol Daemon&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1i4G10UemYzYOYBTIdKb-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QUuLNvkI4vxP1UGPbpTI-4" target="1i4G10UemYzYOYBTIdKb-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QUuLNvkI4vxP1UGPbpTI-4" value="Standalone mode&lt;div&gt;listen=yes in&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(234, 107, 102);&quot;&gt;/etc/vsftpd.conf&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QUuLNvkI4vxP1UGPbpTI-5" value="&lt;div&gt;&amp;nbsp;Any command line option not starting with a &quot;-&quot; character is treated as a config file that will&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;be loaded. Note that config files are loaded in the strict order that they are encountered on the command line.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="230" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QUuLNvkI4vxP1UGPbpTI-6" value="Use of -ooption can override the behavior at &lt;span style=&quot;background-color: rgb(126, 166, 224);&quot;&gt;/etc/vsftpd.conf&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1i4G10UemYzYOYBTIdKb-1" value="We can specify an array of configuration files without using any flag.&lt;div&gt;If no config file is supplied, the default configuration at &lt;span style=&quot;background-color: rgb(103, 171, 159);&quot;&gt;/etc/vsftpd.conf&lt;/span&gt;&lt;/div&gt;&lt;div&gt;is used&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="230" width="220" height="65" as="geometry" />
+        </mxCell>
+        <UserObject label="vsftpd -olisten=NO /etc/vsftpd.conf -oftpd_banner=blah&lt;br&gt;That example overrides vsftpd&#39;s built-in default for the &quot;listen&quot; option to be NO, but then loads /etc/vs‐&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;ftpd.conf which may override that setting. Finally, the &quot;ftpd_banner&quot; setting is set to &quot;blah&quot;, which overrides&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;any default vsftpd setting and any identical setting that was in the config file." link="vsftpd -olisten=NO /etc/vsftpd.conf -oftpd_banner=blah&#xa;&#xa;&#xa;     That example overrides vsftpd&#39;s built-in default for the &quot;listen&quot; option to be NO, but then loads /etc/vs‐&#xa;     ftpd.conf which may override that setting. Finally, the &quot;ftpd_banner&quot; setting is set to &quot;blah&quot;, which overrides&#xa;     any default vsftpd setting and any identical setting that was in the config file." id="1i4G10UemYzYOYBTIdKb-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="30" y="295" width="810" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="1i4G10UemYzYOYBTIdKb-5" value="&lt;span style=&quot;background-color: rgb(0, 127, 255);&quot;&gt;Boolean Options&lt;br&gt;&lt;/span&gt;vsftpd.conf&lt;div&gt;Each line is either a comment/ directive&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 204);&quot;&gt;allow_anon_ssl , write_enable and anon_mkdir_write_enable, local_enable,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 204);&quot;&gt;anon_upload_enable, anonymous_enable,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 204);&quot;&gt;ascii_download_enable, ascii_upload_enable&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 204);&quot;&gt;xferlog_std_format=NO.. get logs in std xfer format&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 204);&quot;&gt;background-&lt;/span&gt; Run the vsftpd in background&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 204);&quot;&gt;anon_world_readable_only,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 204);&quot;&gt;connect_from_port_20 ,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 153, 204);&quot;&gt;anon_other_write_enable, chmod_enable(&lt;/span&gt;site chmod&lt;span style=&quot;background-color: rgb(255, 153, 204);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204, 153, 255);&quot;&gt;utf8_filesystem=YES&lt;/span&gt;-If you&#39;re using modern FTP clients or file systems that are UTF-8 compliant, it’s a good practice to enable UTF-8. Most modern applications and systems are designed to work with UTF-8, which helps maintain compatibility and reduce errors.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 153, 255);&quot;&gt;&amp;nbsp; &amp;nbsp;ssl_enable&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; If&amp;nbsp; enabled,&amp;nbsp; and vsftpd was compiled against OpenSSL, vsftpd will support secure connections via SSL.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;You&#39;ll need a client with SSL support too. NOTE!!&amp;nbsp; &amp;nbsp;Beware&amp;nbsp; enabling&amp;nbsp; this&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; option. Only enable it if you need it. vsftpd can make no guarantees about the security of the OpenSSL libraries&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="570" y="435" width="380" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="1i4G10UemYzYOYBTIdKb-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1i4G10UemYzYOYBTIdKb-6" target="1i4G10UemYzYOYBTIdKb-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1i4G10UemYzYOYBTIdKb-6" value="treats virtual users same as the anonymous users" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1i4G10UemYzYOYBTIdKb-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1i4G10UemYzYOYBTIdKb-9" target="1i4G10UemYzYOYBTIdKb-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1i4G10UemYzYOYBTIdKb-9" value="SSH connections over FTP grant data integrity" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1i4G10UemYzYOYBTIdKb-11" value="Check if vsftpd has PAM?&lt;div&gt;grep pam &lt;span style=&quot;background-color: rgb(103, 171, 159);&quot;&gt;/etc/vsftpd.conf&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1i4G10UemYzYOYBTIdKb-12" value="Numeric Options&lt;div&gt;anon_max_rate(in bytes/s)&lt;/div&gt;&lt;div&gt;The &lt;code style=&quot;background-color: rgb(255, 102, 255);&quot;&gt;data_connection_timeout&lt;/code&gt; option in the &lt;strong&gt;vsftpd&lt;/strong&gt; configuration file (typically found at &lt;code&gt;/etc/vsftpd.conf&lt;/code&gt;) specifies the maximum time allowed for an &lt;strong&gt;active data connection&lt;/strong&gt; to remain idle before the server automatically closes the connection. This option is crucial for managing FTP sessions and ensuring efficient resource utilization.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="10" y="435" width="335" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="1i4G10UemYzYOYBTIdKb-13" value="Specify &lt;span style=&quot;background-color: rgb(241, 156, 153);&quot;&gt;octal &lt;/span&gt;numeric options-&amp;nbsp;&lt;div&gt;Use 0 as first digit of number&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1i4G10UemYzYOYBTIdKb-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1i4G10UemYzYOYBTIdKb-14" target="1i4G10UemYzYOYBTIdKb-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1i4G10UemYzYOYBTIdKb-14" value="listen_ipv6=YES&lt;div&gt;Listens on both ipv4 and ipv6&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1i4G10UemYzYOYBTIdKb-16" value="String options&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 102, 179);&quot;&gt;vsftpd_log_file=&lt;/span&gt;Setpath of the log file&lt;br&gt;&lt;/div&gt;&lt;div&gt;default log file at /var/log/vsftpd.log&lt;/div&gt;&lt;div&gt;chown_username=whoever&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="770" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1i4G10UemYzYOYBTIdKb-17" value="I couldn&#39;t get the directory structure as anonymous user" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="370" y="650" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tPvz1z5cJc-B3_QaXRxJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="619" y="90" as="sourcePoint" />
+            <mxPoint x="699" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPvz1z5cJc-B3_QaXRxJ-4" value="valid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tPvz1z5cJc-B3_QaXRxJ-3">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPvz1z5cJc-B3_QaXRxJ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tPvz1z5cJc-B3_QaXRxJ-1" target="tPvz1z5cJc-B3_QaXRxJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPvz1z5cJc-B3_QaXRxJ-7" value="Invalid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tPvz1z5cJc-B3_QaXRxJ-6">
+          <mxGeometry x="-0.225" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPvz1z5cJc-B3_QaXRxJ-1" value="Validate the configuration file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPvz1z5cJc-B3_QaXRxJ-2" value="If running&amp;nbsp;&lt;div&gt;sudo vsftpd /path&lt;/div&gt;&lt;div&gt;logs no error&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="700" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPvz1z5cJc-B3_QaXRxJ-5" value="If running&amp;nbsp;&lt;div&gt;sudo vsftpd /path&lt;/div&gt;&lt;div&gt;logs errors&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

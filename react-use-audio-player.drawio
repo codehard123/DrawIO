@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="GREsGHNU68SKMBLUiJsb">
+    <mxGraphModel dx="954" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-1" value="Play an Audio" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="duHW_BzN6qLLTQgqoyYI-2" target="duHW_BzN6qLLTQgqoyYI-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-2" value="Error Playing Audio" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-4" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;START_LOAD&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;START_LOAD&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;ON_LOAD&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;ON_LOAD&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;ON_ERROR&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;ON_ERROR&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;ON_PLAY&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;ON_PLAY&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;ON_PAUSE&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;ON_PAUSE&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;ON_STOP&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;ON_STOP&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;ON_END&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;ON_END&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;ON_RATE&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;ON_RATE&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;ON_MUTE&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;ON_MUTE&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;ON_VOLUME&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;ON_VOLUME&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;ON_LOOP&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;ON_LOOP&quot;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-5" value="Stop An Audio" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="duHW_BzN6qLLTQgqoyYI-6" target="duHW_BzN6qLLTQgqoyYI-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-6" value="Pause an Audio" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-7" value="Seek End an&amp;nbsp; Audio" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-8" value="Mute an audio" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-9" value="Loop an audio" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="584.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-10" value="Change volume of&lt;div&gt;audio&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="duHW_BzN6qLLTQgqoyYI-11" target="duHW_BzN6qLLTQgqoyYI-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-11" value="Start Load" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-12" value="Start the loading process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-14" value="isPlaying: false,&lt;div&gt;isPaused:true&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="420" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-22" value="Audio Player State Interface" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="770" width="190" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-25" value="Reset the state to initial&lt;div&gt;Set the error message&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24D2qFIEbQRZ4nIu09Je-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="24D2qFIEbQRZ4nIu09Je-1" target="24D2qFIEbQRZ4nIu09Je-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24D2qFIEbQRZ4nIu09Je-4" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="24D2qFIEbQRZ4nIu09Je-3" vertex="1" connectable="0">
+          <mxGeometry y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24D2qFIEbQRZ4nIu09Je-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="24D2qFIEbQRZ4nIu09Je-1" target="24D2qFIEbQRZ4nIu09Je-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24D2qFIEbQRZ4nIu09Je-7" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="24D2qFIEbQRZ4nIu09Je-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24D2qFIEbQRZ4nIu09Je-1" value="if howl is&lt;div&gt;defined&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="24D2qFIEbQRZ4nIu09Je-2" value="Initial state is set&amp;nbsp;&lt;div&gt;as per the howl instance&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24D2qFIEbQRZ4nIu09Je-5" value="Load initial state" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duHW_BzN6qLLTQgqoyYI-24" value="isPlaying,&lt;div&gt;isStopped,&lt;/div&gt;&lt;div&gt;isPaused,&lt;/div&gt;&lt;div&gt;isLooping.&lt;/div&gt;&lt;div&gt;Volume,&lt;/div&gt;&lt;div&gt;isEnd,&lt;/div&gt;&lt;div&gt;isStart,&lt;/div&gt;&lt;div&gt;seekPosition,&lt;/div&gt;&lt;div&gt;isMuted,&lt;/div&gt;&lt;div&gt;isError,&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="810" width="160" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

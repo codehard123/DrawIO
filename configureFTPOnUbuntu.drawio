@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="WtbTdzEPvrBGEnidGG64">
+    <mxGraphModel dx="954" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QUuLNvkI4vxP1UGPbpTI-2" value="Super Server Mode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QUuLNvkI4vxP1UGPbpTI-3" value="vsftpd -&amp;nbsp;&lt;div&gt;Very Secure File Transfer Protocol Daemon&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QUuLNvkI4vxP1UGPbpTI-4" value="Standalone mode&lt;div&gt;listen=yes in&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(234, 107, 102);&quot;&gt;/etc/vsftpd.conf&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QUuLNvkI4vxP1UGPbpTI-5" value="&lt;div&gt;&amp;nbsp;Any command line option not starting with a &quot;-&quot; character is treated as a config file that will&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;be loaded. Note that config files are loaded in the strict order that they are encountered on the command line.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QUuLNvkI4vxP1UGPbpTI-6" value="Use of -ooption can override the behavior at &lt;span style=&quot;background-color: rgb(126, 166, 224);&quot;&gt;/etc/vsftpd.conf&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" modified="2024-06-20T07:45:08.060Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="9hzBrkBB2OGCiJiaAlHr" version="24.5.5" type="device">
+  <diagram name="Page-1" id="0KPMy_KJ4vdwaD_P2r0g">
+    <mxGraphModel dx="954" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-gbjcol9xgP8SnNv5h3U-1" value="Bash expands ~ to $HOME" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-gbjcol9xgP8SnNv5h3U-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-gbjcol9xgP8SnNv5h3U-2" target="-gbjcol9xgP8SnNv5h3U-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-gbjcol9xgP8SnNv5h3U-2" value="Expansion of filepath symbols like ~,env variables into logical path" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-gbjcol9xgP8SnNv5h3U-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-gbjcol9xgP8SnNv5h3U-4" target="-gbjcol9xgP8SnNv5h3U-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-gbjcol9xgP8SnNv5h3U-4" value="Creation of multiple&lt;div&gt;directories at once&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-gbjcol9xgP8SnNv5h3U-5" value="Explained by BE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="41L_qMSxPV6qsFgI54VP">
+    <mxGraphModel dx="1060" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e8AoG9P07qyb0CQHCIex-1" value="scp- OpenSSH secure file copy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-3" value="Uses ssh for secure data transfer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;The source and target may be specified as a local pathname, a remote host with optional path in the form [user@]host:[path], or a URI in&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;the form scp://[user@]host[:port][/path].&amp;nbsp; Local file names can be made explicit using absolute or relative pathnames to avoid scp treating&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;file names containing ‘:’ as host specifiers.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="520" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-5" value="&lt;div&gt;&amp;nbsp;-4&amp;nbsp; &amp;nbsp; &amp;nbsp; Forces scp to &lt;span style=&quot;background-color: rgb(255, 153, 255);&quot;&gt;use IPv4 addresses only&lt;/span&gt;.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;-6&amp;nbsp; &amp;nbsp; &amp;nbsp; Forces scp to &lt;span style=&quot;background-color: rgb(255, 102, 255);&quot;&gt;use IPv6 addresses only&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="160" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-7" value="&amp;nbsp; -A&amp;nbsp; &amp;nbsp; &amp;nbsp; Allows forwarding of ssh-agent(1) to the remote system.&amp;nbsp; The default is not to forward an authentication agent." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-8" value="&amp;nbsp;-B&amp;nbsp; &amp;nbsp; &amp;nbsp; Selects batch mode (prevents asking for passwords or passphrases)." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="350" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-9" value="Enable compression of data&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 255);&quot;&gt;-C flag&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-10" value="Which ciper to use for encryption&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 204, 230);&quot;&gt;-c flag&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-11" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 153, 255);&quot;&gt;&amp;nbsp; -l&lt;/span&gt; limit&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Limits the used bandwidth, specified in Kbit/s.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-12" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 204, 230);&quot;&gt;&amp;nbsp;-D &amp;lt;sftp_server_path&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;When using the SFTP protocol support via -s, connect directly to a local SFTP server program rather than a remote one via ssh(1).&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;This option may be useful in debugging the client and server.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="460" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e8AoG9P07qyb0CQHCIex-13" target="e8AoG9P07qyb0CQHCIex-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-13" value="&amp;nbsp; &lt;span style=&quot;background-color: rgb(255, 153, 255);&quot;&gt;-s&amp;nbsp;&lt;/span&gt; &amp;nbsp; &amp;nbsp; Use the SFTP protocol for transfers rather than the original scp protocol." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-14" value="SFTP - Secure File Transfer Protocol" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-16" value="&lt;span style=&quot;background-color: rgb(255, 204, 230);&quot;&gt;&amp;nbsp;-p&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; &amp;nbsp; &amp;nbsp; Preserves modification times, access times, and file mode bits from the source file.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="540" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-17" value="-P &amp;lt;port&amp;gt;&lt;div&gt;&amp;nbsp;The port to connect to on the remote host.&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-19" value="&amp;nbsp; &amp;nbsp;-r&amp;nbsp; &amp;nbsp; &amp;nbsp; Recursively copy entire directories.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-20" value="&lt;span style=&quot;background-color: rgb(255, 204, 204);&quot;&gt;-S &amp;lt;program&amp;gt;&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Use a custom SSH handling program" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="269" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e8AoG9P07qyb0CQHCIex-21" value="&lt;span style=&quot;background-color: rgb(126, 166, 224);&quot;&gt;EXIT STATUS&lt;/span&gt;&lt;div&gt;The scp utility exits 0 on success, and &amp;gt;0 if an error occurs.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="750" width="250" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" modified="2024-06-20T14:09:47.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="tBP6XtkgSrAVpVoOoBXj" version="24.5.5" type="device">
+  <diagram name="Page-1" id="YbuaLCIIZ3NCwXSmMvLE">
+    <mxGraphModel dx="954" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bq6d83Z2d1inlahEWf-q-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Used to change the access, modified and last change timestamp of a linux file&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="770" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq6d83Z2d1inlahEWf-q-2" value="Access time is the time when the&amp;nbsp;&lt;div&gt;file was created&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq6d83Z2d1inlahEWf-q-3" value="Modified time is the time when file was last modified (mtime)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="130" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq6d83Z2d1inlahEWf-q-4" value="Last Changed is the time&lt;div&gt;when file inode was&amp;nbsp;&lt;/div&gt;&lt;div&gt;changed&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="130" width="135" height="65" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

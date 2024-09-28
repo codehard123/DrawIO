@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="Page-1" id="xLjPdMoBhbdiot9A20AZ">
+    <mxGraphModel dx="954" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8027Ehb1NLFjfG-MqjXY-1" value="Enables developers to perform conversions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8027Ehb1NLFjfG-MqjXY-2" value="How many conversions occur for a given ad or a product" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8027Ehb1NLFjfG-MqjXY-3" value="&#xa;&lt;ul style=&quot;box-sizing: border-box; margin: 1rem 0px 2rem; list-style: disc; padding: 0px 0px 0px 2rem; color: rgb(255, 255, 255); font-family: Inter, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 27, 27); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0.5rem 0px;&quot;&gt;Which users converted (for example purchased an item, or signed up for a service), and how many.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0.5rem 0px;&quot;&gt;The geographic regions they are based in.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0.5rem 0px;&quot;&gt;What sites the ads were placed on.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0.5rem 0px;&quot;&gt;How many products were sold, services were signed up for, etc.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0.5rem 0px;&quot;&gt;How much revenue was generated.&lt;/li&gt;&lt;/ul&gt;&#xa;&#xa;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="50" width="360" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="8027Ehb1NLFjfG-MqjXY-4" value="Traditionally ad&amp;nbsp;&lt;div&gt;sets up a cookie&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

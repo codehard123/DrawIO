@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="xAFFVVkryfLSn9cRo_O5">
+    <mxGraphModel dx="954" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_B7F9ga3DLDlZ479xHtZ-1" value="ISC DHCP Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_B7F9ga3DLDlZ479xHtZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_B7F9ga3DLDlZ479xHtZ-2" target="_B7F9ga3DLDlZ479xHtZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_B7F9ga3DLDlZ479xHtZ-2" value="Configuration file is located at&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 204);&quot;&gt;/etc/dhcp/dhcpd.conf&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_B7F9ga3DLDlZ479xHtZ-3" value="&lt;div&gt;&amp;nbsp;If &lt;span style=&quot;background-color: rgb(103, 171, 159);&quot;&gt;/etc/ltsp/dhcpd.conf&lt;/span&gt; exists, that will be used as&lt;/div&gt;&lt;div&gt;# configuration file instead of this file.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="400" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_B7F9ga3DLDlZ479xHtZ-5" value="DHCP- Dynamic Host&lt;div&gt;Configuration Protocol&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_B7F9ga3DLDlZ479xHtZ-6" value="+-----------+                             +--------------+&lt;br/&gt;|   Client  |                             |  DHCP Server |&lt;br/&gt;+-----------+                             +--------------+&lt;br/&gt;      |                                          |&lt;br/&gt;      | Broadcast DHCP Discover                  |&lt;br/&gt;      +-----------------------------------------&amp;gt;|&lt;br/&gt;      |                                          |&lt;br/&gt;      | DHCP Offer                               |&lt;br/&gt;      |&amp;lt;-----------------------------------------+&lt;br/&gt;      |                                          |&lt;br/&gt;      | DHCP Request                             |&lt;br/&gt;      +-----------------------------------------&amp;gt;|&lt;br/&gt;      |                                          |&lt;br/&gt;      | DHCP ACK                                 |&lt;br/&gt;      |&amp;lt;-----------------------------------------+&lt;br/&gt;      |                                          |&lt;br/&gt;Client is now configured with IP, gateway, DNS, etc.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="500" y="70" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_B7F9ga3DLDlZ479xHtZ-8" value="Check if configuration file is valid?&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 153, 204);&quot;&gt;&amp;nbsp;sudo dhcpd -t -cf /etc/dhcp/dhcpd.conf&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="180" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

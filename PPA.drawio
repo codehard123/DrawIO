@@ -1,0 +1,16 @@
+<mxfile host="app.diagrams.net" modified="2024-06-15T18:33:02.562Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="leI9FLr0KV4ZZkVD062z" version="24.5.4" type="device">
+  <diagram name="Page-1" id="gcCbF3ixec7b9P-pdAyL">
+    <mxGraphModel dx="954" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o-esJihazf7h9-BhMr24-1" value="Seeing PPA repos&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 153, 255);&quot;&gt;/etc/apt/sources.list.d&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o-esJihazf7h9-BhMr24-2" value="&lt;div&gt;Main(free)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="31" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

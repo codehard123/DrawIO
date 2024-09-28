@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2024-07-18T05:31:06.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Ops9oyGNM-B2lHcUtu5m" version="24.7.1" type="device">
+  <diagram name="Page-1" id="Xvn3MnUM61P2ARC-N1Gh">
+    <mxGraphModel dx="954" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-4" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="750" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-6" value="User&lt;div&gt;Permissions&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_vpfkQWPNFk_ecMZoDd_-4">
+          <mxGeometry x="120" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-7" value="&lt;div&gt;Group&lt;/div&gt;&lt;div&gt;Permissions&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_vpfkQWPNFk_ecMZoDd_-4">
+          <mxGeometry x="200" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-8" value="&lt;div&gt;Other&lt;/div&gt;&lt;div&gt;Permissions&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_vpfkQWPNFk_ecMZoDd_-4">
+          <mxGeometry x="280" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-5" value="file Type&lt;div&gt;- normal file&lt;/div&gt;&lt;div&gt;d Directory&lt;/div&gt;&lt;div&gt;l Link File&lt;/div&gt;&lt;div&gt;s Socket File&lt;/div&gt;&lt;div&gt;b Binary File (Disks/files)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="_vpfkQWPNFk_ecMZoDd_-4">
+          <mxGeometry width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-10" value="Owner" style="whiteSpace=wrap;html=1;" vertex="1" parent="_vpfkQWPNFk_ecMZoDd_-4">
+          <mxGeometry x="440" width="40" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-11" value="Group" style="whiteSpace=wrap;html=1;" vertex="1" parent="_vpfkQWPNFk_ecMZoDd_-4">
+          <mxGeometry x="480" width="40" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-9" value="Number of&amp;nbsp;&lt;div&gt;Links per&lt;/div&gt;&lt;div&gt;file&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="_vpfkQWPNFk_ecMZoDd_-4">
+          <mxGeometry x="360" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-12" value="Size in&lt;div&gt;bytes&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="_vpfkQWPNFk_ecMZoDd_-4">
+          <mxGeometry x="520" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-13" value="Last Modified&lt;div&gt;Timestamp&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="_vpfkQWPNFk_ecMZoDd_-4">
+          <mxGeometry x="580" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-15" value="FileName" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="80" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-16" value="Display content one&lt;div&gt;line after another&lt;/div&gt;&lt;div&gt;ls -1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_vpfkQWPNFk_ecMZoDd_-17" target="_vpfkQWPNFk_ecMZoDd_-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-17" value="You can&#39;t check size of disk volumes in your linux distro using ls command.&amp;nbsp;&lt;div&gt;It shows file is a binary file and does not mention proper size when using human&lt;/div&gt;&lt;div&gt;readable flag&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-18" value="Using the ls command on /dev/sd* we can surely say when our disk/volume was&lt;div&gt;used&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_vpfkQWPNFk_ecMZoDd_-21" value="Show inode number&lt;div&gt;ls -i&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

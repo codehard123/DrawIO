@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" modified="2024-07-18T05:53:19.587Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.1" etag="iERzgVkr6Ui3SRcdYR0y" type="device">
+  <diagram id="YB7nxHcyt1UKi1WW9o3B" name="Page-1">
+    <mxGraphModel dx="954" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8UfrzMply8LaI5QMz6-F-1" value="Inode Exhaustion&lt;div&gt;Inode exhaustion occurs when there is space available but not enough inodes available to keep the data&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8UfrzMply8LaI5QMz6-F-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8UfrzMply8LaI5QMz6-F-2" target="8UfrzMply8LaI5QMz6-F-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8UfrzMply8LaI5QMz6-F-2" value="Stat command is used to view the inode information&lt;div&gt;about the file.. Stat command issues a system call&amp;nbsp;&lt;/div&gt;&lt;div&gt;for these operations&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="100" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8UfrzMply8LaI5QMz6-F-3" value="Last changed is&amp;nbsp;&lt;div&gt;the time when the inode information of file was last changed&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="507" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8UfrzMply8LaI5QMz6-F-5" value="&lt;span style=&quot;background-color: rgb(255, 102, 102);&quot;&gt;df -i command is&amp;nbsp; &lt;/span&gt;used to display inode information&lt;div&gt;usage for a particular disk&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="275" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,13 @@
+<mxfile host="app.diagrams.net" modified="2024-06-20T13:43:58.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="DCC0Og3eTPnteMxkS0r0" version="24.5.5" type="device">
+  <diagram name="Page-1" id="ggMqoW4tVQJ9VgsLF6bh">
+    <mxGraphModel dx="734" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8wWT-yStJkSmruKn6boC-1" value="$PWD- Present Working Directory&lt;div&gt;$BASH_VERSION- BASH Version&lt;/div&gt;&lt;div&gt;$BASH- Location of Bash&lt;/div&gt;&lt;div&gt;$OLDPWD- Present Working Directory&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="340" height="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

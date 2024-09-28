@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="Page-1" id="udwfNYl6O908908pvyr_">
+    <mxGraphModel dx="954" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-1" target="P7oK3KAKyyxxwKZ3Ux0x-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-1" value="Create and format&amp;nbsp;&lt;div&gt;a partition&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="50" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-2" target="P7oK3KAKyyxxwKZ3Ux0x-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-2" target="P7oK3KAKyyxxwKZ3Ux0x-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-2" value="Types of volume/&lt;div&gt;partition&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-3" target="P7oK3KAKyyxxwKZ3Ux0x-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-3" value="Find Partition Details" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-4" value="Set GPT/MBR&lt;div&gt;Identifier&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-5" target="P7oK3KAKyyxxwKZ3Ux0x-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-5" target="P7oK3KAKyyxxwKZ3Ux0x-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-5" target="P7oK3KAKyyxxwKZ3Ux0x-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-5" target="P7oK3KAKyyxxwKZ3Ux0x-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-5" value="MBR(boot sector)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-6" target="P7oK3KAKyyxxwKZ3Ux0x-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-6" value="MBR as data&amp;nbsp;&lt;div&gt;structure to hold&lt;/div&gt;&lt;div&gt;partitioning scheme&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-8" value="Location&amp;nbsp;&lt;div&gt;(Track(cylinder)-side(head)&amp;gt;Sector 1)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-10" target="P7oK3KAKyyxxwKZ3Ux0x-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-10" target="P7oK3KAKyyxxwKZ3Ux0x-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-10" value="Holds the Partition&lt;div&gt;Table for the Disk&lt;/div&gt;&lt;div&gt;(every HDD has it)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-12" target="P7oK3KAKyyxxwKZ3Ux0x-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-12" value="Actions on System&lt;div&gt;Partition&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-14" value="Load system Partition boot sector and the&lt;div&gt;execute&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-16" value="Read Hex Dump" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+          <mxGeometry x="330" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-18" value="Two partition types&lt;div&gt;Primary and Extended&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-20" value="Writing a Hex&lt;div&gt;Dump mbr&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+          <mxGeometry x="330" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-22" target="P7oK3KAKyyxxwKZ3Ux0x-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-22" target="P7oK3KAKyyxxwKZ3Ux0x-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-22" value="Types of Disks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="660" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-23" value="vdisk" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;gradientColor=#ffd966;" parent="1" vertex="1">
+          <mxGeometry x="790" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-25" value="volume" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;gradientColor=#ffd966;" parent="1" vertex="1">
+          <mxGeometry x="660" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-27" value="&lt;span style=&quot;background-color: rgb(255, 204, 230);&quot;&gt;list partition&lt;/span&gt;&lt;div&gt;on selected disk&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="331" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-30" target="P7oK3KAKyyxxwKZ3Ux0x-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-30" value="select a disk, create a partition(primary or extended)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="50" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-32" value="Extending a partition&lt;div&gt;will make it&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-34" target="P7oK3KAKyyxxwKZ3Ux0x-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-34" value="Primary&lt;div&gt;(maybe active or not)&lt;/div&gt;&lt;div&gt;active=responsible for loading&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+          <mxGeometry x="360" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P7oK3KAKyyxxwKZ3Ux0x-36" target="P7oK3KAKyyxxwKZ3Ux0x-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-36" value="Extended-&lt;div&gt;Container for&lt;/div&gt;&lt;div&gt;logical drives&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="500" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-40" value="Activating A Primary&lt;div&gt;Partition.drawio&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="360" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P7oK3KAKyyxxwKZ3Ux0x-42" value="Has Logical&lt;div&gt;Partitions&lt;/div&gt;&lt;div&gt;Maximum 24&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

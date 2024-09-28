@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="br6c-QpBdaFtKq5JPb_7">
+    <mxGraphModel dx="1831" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E01AcFCTacKjE4IlmNko-1" value="Control the system daemon and service manager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-2" value="Introspect and control the state of the system daemon and service manager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-3" value="Related to systemd" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E01AcFCTacKjE4IlmNko-4" target="E01AcFCTacKjE4IlmNko-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E01AcFCTacKjE4IlmNko-4" target="E01AcFCTacKjE4IlmNko-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E01AcFCTacKjE4IlmNko-4" target="E01AcFCTacKjE4IlmNko-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-4" value="&lt;span style=&quot;background-color: rgb(103, 171, 159);&quot;&gt;list-units&lt;/span&gt;&lt;div&gt;lists unit that systemd has in memory&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="230" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-5" value="Units referred directly as well as through a dependency" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="430" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-7" value="Units pinned programmatically&amp;nbsp;&lt;div&gt;and units once active in past but now have failed&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="230" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E01AcFCTacKjE4IlmNko-9" target="E01AcFCTacKjE4IlmNko-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E01AcFCTacKjE4IlmNko-9" target="E01AcFCTacKjE4IlmNko-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-9" value="By default only units that are active, have pending jobs or have failed are shown" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="350" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-12" value="The -all flag can change what units get displayed" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="75" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E01AcFCTacKjE4IlmNko-14" target="E01AcFCTacKjE4IlmNko-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-14" value="one or more patterns can be specified to show which units can be seen" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-16" value="Units can also be filtered by &lt;span style=&quot;background-color: rgb(255, 153, 255);&quot;&gt;type&lt;/span&gt; and &lt;span style=&quot;background-color: rgb(255, 153, 255);&quot;&gt;state&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-175" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-18" value="Unit templates that aren&#39;t instantiated are not runnable thus will never show up in the output of this command. Thus only instantiated units can be shown as in the output of this command." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="150" width="276" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-19" value="PLUGGED/FAILED/&lt;div&gt;RUNNING&lt;div&gt;are possible SUBS&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E01AcFCTacKjE4IlmNko-20" target="E01AcFCTacKjE4IlmNko-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-20" value="LOAD-Whether unit declaration was properly loaded" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="554.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E01AcFCTacKjE4IlmNko-21" target="E01AcFCTacKjE4IlmNko-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-21" value="Active- High level unit activation state" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="408" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-22" value="SUB- Low level unit activation state" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="740" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-25" value="&amp;nbsp; To show all installed unit files use&lt;span style=&quot;background-color: rgb(103, 171, 159);&quot;&gt; &#39;systemctl list-unit-files&#39;.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="795" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E01AcFCTacKjE4IlmNko-26" target="E01AcFCTacKjE4IlmNko-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E01AcFCTacKjE4IlmNko-26" target="E01AcFCTacKjE4IlmNko-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-26" value="&amp;nbsp;the load state,&lt;div&gt;&amp;nbsp;one of&amp;nbsp;&lt;/div&gt;&lt;div&gt;loaded,&amp;nbsp;&lt;div&gt;not-found,&amp;nbsp;&lt;/div&gt;&lt;div&gt;bad-setting,&lt;/div&gt;&lt;div&gt;&amp;nbsp;error,&lt;/div&gt;&lt;div&gt;&amp;nbsp;masked.&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="770" y="560" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-29" value="&lt;div&gt;he ACTIVE columns shows the general unit&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;state, one of active, reloading, inactive, failed, activating, deactivating.&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="770" y="790" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-31" value="&lt;div&gt;. The SUB column shows the unit-type-specific detailed&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;state of the unit, possible values vary by unit type.&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="770" y="330" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-33" value="&lt;div&gt;&amp;nbsp; systemctl --state=help&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;command maybe be used to display the current set of possible values.&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="606" y="554.5" width="144.5" height="144.5" as="geometry" />
+        </mxCell>
+        <mxCell id="E01AcFCTacKjE4IlmNko-34" value="&lt;div&gt;&amp;nbsp; list-timers [PATTERN...]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;List timer units currently in memory, ordered by the time they elapse next. If one or more PATTERNs are specified, only units&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;matching one of them are shown. Produces output similar to&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="570" y="750" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8kQTvEUqiYzALOOTXFF3-1" value="--is-active&amp;lt;pattern&amp;gt;&lt;div&gt;--is-failed &amp;lt;pattern&amp;gt;&lt;br&gt;show which units are active / failed&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="606" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8kQTvEUqiYzALOOTXFF3-2" value="command@&amp;lt;username&amp;gt;&lt;div&gt;systemctl start &lt;span style=&quot;background-color: rgb(103, 171, 159);&quot;&gt;docker@samarth&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="190" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,16 @@
+<mxfile host="app.diagrams.net" modified="2024-06-17T11:35:46.712Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="geZXlVz5go3TVSwAcZrU" version="24.5.4" type="device">
+  <diagram name="Page-1" id="Lypp-X8N_AOSiqNlc-U4">
+    <mxGraphModel dx="830" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZTl-rT-uKXl2aRbpSLDz-3" value="&#39;use strict&#39;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="100" width="210" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTl-rT-uKXl2aRbpSLDz-4" value="Has Both Local and Block level&lt;div&gt;Scope&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Does not allow using variables&amp;nbsp;&lt;/div&gt;&lt;div&gt;before declaration in JS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Function address are also stored&lt;/div&gt;&lt;div&gt;in variables in JS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ZTl-rT-uKXl2aRbpSLDz-3">
+          <mxGeometry x="15" y="40" width="180" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

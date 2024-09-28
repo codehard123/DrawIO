@@ -1,0 +1,175 @@
+<mxfile host="app.diagrams.net" modified="2024-06-16T17:55:06.084Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="94tgtCwCttneJT7ovTsG" version="24.5.4" type="device">
+  <diagram name="Page-1" id="WnQ51D4KgtJYPzbZZymF">
+    <mxGraphModel dx="1463" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-1" value="Choose a distro&lt;div&gt;wsl --distribution&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-2" value="List&amp;nbsp; names of available subsystems&lt;div&gt;wsl --list&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-90" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-3" value="run as specified&amp;nbsp;&lt;div&gt;user&lt;/div&gt;&lt;div&gt;wsl --user&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mlYaVqdWXbuzQ77CRG0n-4" target="mlYaVqdWXbuzQ77CRG0n-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-4" value="Search for distribution&lt;div&gt;enable online&lt;/div&gt;&lt;div&gt;wsl --online&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mlYaVqdWXbuzQ77CRG0n-6" target="mlYaVqdWXbuzQ77CRG0n-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mlYaVqdWXbuzQ77CRG0n-6" target="mlYaVqdWXbuzQ77CRG0n-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mlYaVqdWXbuzQ77CRG0n-6" target="mlYaVqdWXbuzQ77CRG0n-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-6" value="Install a subsystem&lt;div&gt;after listing&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(181, 33, 33);&quot;&gt;wsl --install --distribution&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="440" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-8" value="Download from web&lt;div&gt;--web-download&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="294" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-10" value="Download&amp;nbsp;&lt;div&gt;from store&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mlYaVqdWXbuzQ77CRG0n-12" target="mlYaVqdWXbuzQ77CRG0n-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-12" value="Just install optional&amp;nbsp;&lt;div&gt;requirements not the distribution&lt;/div&gt;&lt;div&gt;--no-distribution&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFotZL9jlA6czP2NWt_-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mlYaVqdWXbuzQ77CRG0n-14" target="-uFotZL9jlA6czP2NWt_-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-14" value="Enable wsl1 support&lt;div&gt;&lt;span style=&quot;background-color: rgb(183, 31, 31);&quot;&gt;--enable-wsl1&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFotZL9jlA6czP2NWt_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mlYaVqdWXbuzQ77CRG0n-16" target="-uFotZL9jlA6czP2NWt_-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-16" value="Manage a distribution&lt;div&gt;after selecting distro&lt;/div&gt;&lt;div&gt;--manage&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="174" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mlYaVqdWXbuzQ77CRG0n-17" target="mlYaVqdWXbuzQ77CRG0n-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-17" value="Mount a partition&lt;div&gt;physical or virtual&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mlYaVqdWXbuzQ77CRG0n-18" target="mlYaVqdWXbuzQ77CRG0n-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mlYaVqdWXbuzQ77CRG0n-18" target="mlYaVqdWXbuzQ77CRG0n-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mlYaVqdWXbuzQ77CRG0n-18" target="mlYaVqdWXbuzQ77CRG0n-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-18" value="Mount a partition&lt;div&gt;physical or virtual&lt;/div&gt;&lt;div&gt;--mount &amp;lt;Disk&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+          <mxGeometry x="850" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-20" value="Virtual Hard Disk&lt;div&gt;&lt;span style=&quot;background-color: rgb(38, 36, 188);&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;background-color: rgb(102, 178, 255);&quot;&gt;-mount --vhd &amp;lt;mountpoint&amp;gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFotZL9jlA6czP2NWt_-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mlYaVqdWXbuzQ77CRG0n-22" target="-uFotZL9jlA6czP2NWt_-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFotZL9jlA6czP2NWt_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mlYaVqdWXbuzQ77CRG0n-22" target="-uFotZL9jlA6czP2NWt_-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-22" value="Non Virtual" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="720" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mlYaVqdWXbuzQ77CRG0n-24" target="mlYaVqdWXbuzQ77CRG0n-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-24" value="Mount with a name&lt;div&gt;--name&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+          <mxGeometry x="850" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mlYaVqdWXbuzQ77CRG0n-26" target="mlYaVqdWXbuzQ77CRG0n-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-26" value="File System to&lt;div&gt;use after mounting&lt;/div&gt;&lt;div&gt;--type&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+          <mxGeometry x="850" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYaVqdWXbuzQ77CRG0n-29" value="Don&#39;t mount&amp;nbsp;&lt;div&gt;just use&lt;/div&gt;&lt;div&gt;--bare&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="850" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFotZL9jlA6czP2NWt_-1" value="--version Displays version of wsl not&amp;nbsp;&lt;div&gt;of the distributions&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFotZL9jlA6czP2NWt_-3" value="By default wsl launches distribution after install&lt;div&gt;To not launch use&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;--no-launch&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="420" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFotZL9jlA6czP2NWt_-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-uFotZL9jlA6czP2NWt_-5" target="-uFotZL9jlA6czP2NWt_-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFotZL9jlA6czP2NWt_-5" value="Find Index of partition&amp;nbsp;&lt;div&gt;to mount&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="720" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFotZL9jlA6czP2NWt_-7" value="DiskPart.draw.io&lt;div&gt;Check&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="720" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uFotZL9jlA6czP2NWt_-10" value="Make it Sparse&lt;div&gt;to reclaim disk space in .vhdx format&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 204);&quot;&gt;wsl --manage ubuntu -s true&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="100" y="120" width="194" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zjc0VVOO9R4PGwVeAQAq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zjc0VVOO9R4PGwVeAQAq-1" target="zjc0VVOO9R4PGwVeAQAq-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zjc0VVOO9R4PGwVeAQAq-1" value="WSL compact&lt;div&gt;the hdvx format&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zjc0VVOO9R4PGwVeAQAq-2" value="wsl --manage --set-sparse &amp;lt;true|false&amp;gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_NSqbYQBKbYhHPuct-VS-1" value="WSL Set Default Version of WSL&lt;div&gt;--set-default-version(1|2)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="30" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_NSqbYQBKbYhHPuct-VS-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_NSqbYQBKbYhHPuct-VS-2" target="_NSqbYQBKbYhHPuct-VS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_NSqbYQBKbYhHPuct-VS-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;WSL decide whether&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;to operate&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;a linux distro not on /bin/bash&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;but windows&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;shell&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="50" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_NSqbYQBKbYhHPuct-VS-3" value="Use --exec&amp;nbsp;&lt;div&gt;flag&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_NSqbYQBKbYhHPuct-VS-5" value="yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_NSqbYQBKbYhHPuct-VS-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_NSqbYQBKbYhHPuct-VS-6" target="_NSqbYQBKbYhHPuct-VS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_NSqbYQBKbYhHPuct-VS-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_NSqbYQBKbYhHPuct-VS-6" target="_NSqbYQBKbYhHPuct-VS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_NSqbYQBKbYhHPuct-VS-6" value="Uninstall a Linux&lt;div&gt;Distribution=unregister&lt;/div&gt;&lt;div&gt;a linux distribution&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_NSqbYQBKbYhHPuct-VS-7" value="Not Same As&amp;nbsp;&lt;div&gt;Uninstalling WSL package which is&amp;nbsp;&lt;/div&gt;&lt;div&gt;wsl --uniinstall&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_NSqbYQBKbYhHPuct-VS-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_NSqbYQBKbYhHPuct-VS-9" target="_NSqbYQBKbYhHPuct-VS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_NSqbYQBKbYhHPuct-VS-9" value="Shutdown WSL&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 204);&quot;&gt;wsl --shutdown&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_NSqbYQBKbYhHPuct-VS-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_NSqbYQBKbYhHPuct-VS-11" target="_NSqbYQBKbYhHPuct-VS-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_NSqbYQBKbYhHPuct-VS-11" value="Make .vhdx format compact&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 204);&quot;&gt;wsl --manage Arch -s true&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1365" y="280" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_NSqbYQBKbYhHPuct-VS-13" value="unregister WS distro&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 204);&quot;&gt;wsl --unregister Arch&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
